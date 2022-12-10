@@ -24,7 +24,7 @@ The gravity is computed with this formula : currentForce = (6.67f * masse * mass
 with "distance" standing for the distance between the player and the current planet used in the formula.
 We then add the result of the application of this formula on all planets to compute the final gravity affecting the player.
 The force is a vector and its direction will be the most attracting planet.
-Source for the formula : https://fr.wikipedia.org/wiki/Gravitation
+Source for the formula : https://en.wikipedia.org/wiki/Gravity
 
 To keep the player standing, we use interpolation between the direction of the player going to the selected planet
 and the "up" vector of the player gameObject and use the result as the new "up" vector of the player.
