@@ -9,7 +9,7 @@ Weight is randomly generated.
 
 ### PlayerMove
 
-Script that allows the player to move while being affected by the gravitiy from all planets.
+Script that allows the player to move while being affected by the gravity from all planets.
 
 The gravity affecting the player is computed for each planet and added.
 That allows the player to be attracted by the nearest and heaviest planet.
